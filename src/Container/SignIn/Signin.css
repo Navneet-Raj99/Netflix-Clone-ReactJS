@@ -1,0 +1,38 @@
+.signincontainer
+{
+    background-image: url("demo.png");
+    height: 680px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sigincontent
+{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logincontent
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.emailinput
+{
+   height: 30px;
+   width: 480px;
+   text-align: center;
+   outline-width: 0px;
+}
+.buttoninput
+{
+    height: 34px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+}

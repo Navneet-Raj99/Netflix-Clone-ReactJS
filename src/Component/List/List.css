@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.listofmovies
+{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    font-family: 'Montserrat';
+    
+} 
+.contentcontainer
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.listItemconatiner
+{
+    /* overflow:hidden; */
+    display: flex;
+}
+
+.backarrow
+{
+    position: absolute;
+   left: 12px;
+   /* top: 5px; */
+   height: 120px;
+   z-index: 10;
+    background-color: rgb(193, 183, 183);
+    cursor: pointer;
+}
+.forwardarrow
+{
+    position: absolute;
+    right:7px;
+    height: 120px;
+    background-color: rgb(161, 149, 149);
+    cursor: pointer;
+   
+   
+}
+.continuetowatch
+{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.listItemconatiner
+{
+
+    width: max-content;
+    transition: all 1s ease;
+}
